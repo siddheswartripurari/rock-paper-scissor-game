@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.game-name {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.rock-btn, .paper-btn, .scissors-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  width: 125px;
+  height: 125px;
+  margin-right: 5px;
+  font-size: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.p-result {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+} 
+
+.p-moves {
+  margin-top: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
+
+.reset-btn {
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
